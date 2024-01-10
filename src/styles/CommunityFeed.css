@@ -1,4 +1,4 @@
-.communityFeed{
+.communityFeed__topHalf{
     flex: 1;
     padding: 30px, 150px;
     display: flex;
@@ -10,5 +10,14 @@
 #line{
     padding-top: 10px;
     color: #81bf06;
-    font-weight: normal;
+    font-weight: bold;
+}
+
+.communityFeed__bottomHalf{
+    margin: 0px 13.87%;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
 }
