@@ -6,3 +6,9 @@
     justify-content: center;
     align-items: center;
 }
+
+#line{
+    padding-top: 10px;
+    color: #81bf06;
+    font-weight: normal;
+}

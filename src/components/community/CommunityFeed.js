@@ -8,6 +8,7 @@ function CommunityFeed() {
       {/* Search */}
       <CommunitySearch />
       {/* Line of Text */}
+      <h4 id='line'>Hitting Partner Suggestions 👇</h4>
       {/* User Profiles */}
     </div>
   )
