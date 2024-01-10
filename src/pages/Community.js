@@ -4,7 +4,7 @@ import Header from '../components/common/Header'
 import CommunityFeed from '../components/community/CommunityFeed'
 
 // HOME PAGE
-function Home() {
+function Community() {
   return (
     <div className='app'>
       {/* Header */}
@@ -16,4 +16,4 @@ function Home() {
   )
 }
 
-export default Home
+export default Community
