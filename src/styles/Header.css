@@ -61,6 +61,13 @@
     color: black;
 }
 
+.header__option a {
+    /* Your styles for the Link component within header__option class */
+    text-decoration: none;
+    color: inherit;
+    /* Add more styles as needed */
+}
+
 .header__option:hover{
     background-color: #e8ffba;
     border-radius: 10px;

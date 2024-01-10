@@ -1,12 +1,11 @@
 import React from 'react';
-import '../styles/Home.css';
+import '../styles/Community.css';
 import Header from '../components/common/Header'
 import CommunityFeed from '../components/community/CommunityFeed'
 
-// HOME PAGE
 function Community() {
   return (
-    <div className='app'>
+    <div className='community'>
       {/* Header */}
       <Header/>
       

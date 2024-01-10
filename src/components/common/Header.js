@@ -1,5 +1,6 @@
-import React from 'react'
-import "../../styles/Header.css"
+import React from 'react';
+import {Link} from 'react-router-dom';
+import "../../styles/Header.css";
 import IconButton from '@mui/material/IconButton';
 import SearchIcon from '@mui/icons-material/Search';
 import GroupsIcon from '@mui/icons-material/Groups';
@@ -25,13 +26,19 @@ function Header() {
 
         <div className='header__center'>
             <div className='header__option header__option--active'>
-                <GroupsIcon fontSize="large"/>
+                <Link to={'/'}>
+                    <GroupsIcon fontSize="large" />
+                </Link>
             </div>
             <div className='header__option'>
-                <SportsTennisIcon fontSize="large"/>
+                <Link to={'/courts'}>
+                    <SportsTennisIcon fontSize="large"/>
+                </Link>     
             </div>
             <div className='header__option'>
-                <StorefrontIcon fontSize="large"/>
+                <Link to={'/marketplace'}> 
+                    <StorefrontIcon fontSize="large"/>
+                </Link>
             </div>
         </div> 
 
