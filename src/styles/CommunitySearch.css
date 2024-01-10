@@ -1,0 +1,39 @@
+.communitySearch{
+    display: flex;
+    margin-top: 5px;
+    padding: 15px;
+    border-radius: 15px;
+    width: 30%;
+}
+
+.communitySearch > form{
+    flex: 1;
+    display: flex;
+    outline-width: 0;
+    border: none;
+    padding: 13px 20px;
+    margin: 0 10px;
+    border-radius: 999px;
+    background-color: #eff2f5;
+}
+
+.communitySearch > form > input{
+    outline-width: 0;
+    border: none;
+    margin: 0 10px;
+    background-color: #eff2f5;
+    text-align: center;
+}
+
+.communitySearch > form > .MuiSvgIcon-root{
+    color: grey;
+}
+
+.communitySearch > form > button{
+    display: none;
+}
+
+.communitySearch__input{
+    flex: 1; 
+    /* Go wide as you can */
+}
