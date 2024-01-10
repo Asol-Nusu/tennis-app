@@ -6,8 +6,8 @@ import GroupsIcon from '@mui/icons-material/Groups';
 import StorefrontIcon from '@mui/icons-material/Storefront';
 import SportsTennisIcon from '@mui/icons-material/SportsTennis';
 import Avatar from '@mui/material/Avatar';
-import ForumIcon from '@mui/icons-material/Forum';
-import NotificationsIcon from '@mui/icons-material/Notifications';
+import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
+import NotificationsOutlinedIcon from '@mui/icons-material/NotificationsOutlined';
 
 function Header() {
   return (
@@ -37,10 +37,10 @@ function Header() {
 
         <div className='header__right'>
             <IconButton className='header__right_icon'>
-                <ForumIcon />
+                <EmailOutlinedIcon />
             </IconButton>
             <IconButton className='header__right_icon'>
-                <NotificationsIcon />
+                <NotificationsOutlinedIcon />
             </IconButton>
 
             <div className='header__info'>

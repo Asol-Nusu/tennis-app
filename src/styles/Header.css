@@ -58,7 +58,7 @@
 
 .header__option > .MuiSvgIcon-root{
     /* MUI gives all of the icons this class  */
-    color: grey;
+    color: black;
 }
 
 .header__option:hover{
