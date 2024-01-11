@@ -7,11 +7,11 @@ import {Route, Routes} from 'react-router-dom'
 function App() {
   return (
     <div>
-        <Routes>
-            <Route path='/' element={<Community/>}/>
-            <Route path='/courts' element={<Courts/>}/>
-            <Route path='/marketplace' element={<Marketplace/>}/>
-        </Routes>
+      <Routes>
+          <Route path='/' element={<Community/>}/>
+          <Route path='/courts' element={<Courts/>}/>
+          <Route path='/marketplace' element={<Marketplace/>}/>
+      </Routes>
     </div>
   );
 }

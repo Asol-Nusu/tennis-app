@@ -1,8 +1,12 @@
 import React from 'react'
+import Header from '../components/common/Header'
 
 function Marketplace() {
   return (
-    <div>Marketplace</div>
+    <div>
+      {/* Header */}
+      <Header/>
+    </div>
   )
 }
 
