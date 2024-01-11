@@ -43,10 +43,10 @@ function Header() {
         </div> 
 
         <div className='header__right'>
-            <IconButton className='header__right_icon'>
+            <IconButton className='header__right__icon'>
                 <EmailOutlinedIcon />
             </IconButton>
-            <IconButton className='header__right_icon'>
+            <IconButton className='header__right__icon'>
                 <NotificationsOutlinedIcon />
             </IconButton>
 

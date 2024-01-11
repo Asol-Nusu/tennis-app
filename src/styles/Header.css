@@ -45,7 +45,8 @@
 .header__center{
     display: flex;
     flex: 1;
-    justify-content: center;
+    margin: 0px 70px;
+    justify-content: space-evenly;
 }
 
 .header__option{
@@ -92,7 +93,7 @@
     display: flex;
 }
 
-.header__right_icon > .MuiSvgIcon-root{
+.header__right__icon > .MuiSvgIcon-root{
     color: black;
     padding: 5px;
 }
