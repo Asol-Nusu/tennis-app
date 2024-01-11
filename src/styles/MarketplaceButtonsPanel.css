@@ -1,0 +1,38 @@
+.marketplaceButtonsPanel{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.marketplaceButtonsPanel__filterButton{
+    width: 122px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    color: black;
+    cursor: pointer;
+    user-select: none;
+}
+
+.marketplaceButtonsPanel__filterButton:active,
+.marketplaceButtonsPanel__filterButton:focus,
+.marketplaceButtonsPanel__filterButton:active:hover {
+  transform: scale(0.90); /* Adjust the scaling factor as needed */
+  transition: transform 0.5s; /* Adjust the transition duration as needed */
+}
+
+.marketplaceButtonsPanel > .MuiFab-extended{
+    color: black;
+    text-transform: none;
+    font-size: 17px;
+    box-shadow: none;
+    margin: 10px;
+}
+
+#postButton.MuiFab-extended {
+    background-color: #99db16;
+}
+
+#viewPostsButton.MuiFab-extended {
+    background-color: #fcd288;
+}

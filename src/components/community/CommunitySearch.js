@@ -31,7 +31,6 @@ function CommunitySearch() {
             </button>
         </form>
     </div>
-    
   )
 }
 

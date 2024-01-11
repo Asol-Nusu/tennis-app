@@ -1,0 +1,36 @@
+.marketplaceSearch{
+    display: flex;
+    padding: 15px 30px;
+    border-radius: 15px;
+    width: 20%;
+} 
+.marketplaceSearch > form{
+    flex: 1;
+    display: flex;
+    outline-width: 0;
+    height: 20px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 999px;
+    background-color: #eff2f5;
+}
+
+.marketplaceSearch > form > input{
+    outline-width: 0;
+    border: none;
+    background-color: #eff2f5;
+    text-align: center;
+}
+
+.marketplaceSearch > form > .MuiSvgIcon-root{
+    color: grey;
+}
+
+.marketplaceSearch > form > button{
+    display: none;
+}
+
+.marketplaceSearch__input{
+    flex: 1; 
+    /* Go wide as you can  */
+}

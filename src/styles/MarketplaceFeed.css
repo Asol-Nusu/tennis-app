@@ -1,0 +1,5 @@
+.marketplaceFeed__topHalf{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

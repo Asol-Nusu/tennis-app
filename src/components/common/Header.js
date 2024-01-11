@@ -3,7 +3,7 @@ import {Link, useMatch, useResolvedPath} from 'react-router-dom';
 import "../../styles/Header.css";
 import IconButton from '@mui/material/IconButton';
 import SearchIcon from '@mui/icons-material/Search';
-import GroupsIcon from '@mui/icons-material/Groups';
+import GroupsOutlinedIcon from '@mui/icons-material/GroupsOutlined';
 import StorefrontIcon from '@mui/icons-material/Storefront';
 import SportsTennisIcon from '@mui/icons-material/SportsTennis';
 import Avatar from '@mui/material/Avatar';
@@ -41,7 +41,7 @@ function Header() {
             </div>  
 
             <div className='header__center'>
-                <CustomLink to='/' content={<GroupsIcon fontSize="large" />} />
+                <CustomLink to='/' content={<GroupsOutlinedIcon fontSize="large" />} />
                 <CustomLink to='/courts' content={<SportsTennisIcon fontSize="large" />} />
                 <CustomLink to='/marketplace' content={<StorefrontIcon fontSize="large" />} />
             </div> 
